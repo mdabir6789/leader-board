@@ -11,10 +11,13 @@ body{
     width: 870px;
     background-color: #FFFFFF;
     padding: 30px;
+    margin-top: 21px;
+    border-radius: 5px;
 }
 main{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 hr{
     border: 1px solid #D1D1D1;
@@ -44,4 +47,96 @@ hr{
     margin-left: 16px;
     font-size: 18px;
     color: #000000;
+}
+/* Top Blog Section Styles */
+.single-article .thumbnail img{
+    width: 177px;
+    height: 117px;
+}
+.blog .single-article{
+    display: flex;
+    align-items: center;
+}
+.article-info{
+    margin-left: 16px;
+}
+.article-info a{
+    text-decoration: none;
+    color: #562EFF;
+}
+.blog-title{
+    color: #562EFF;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 31px;
+}
+.article-info .article-title{
+    color: #000000;
+    font-size: 20px;
+}
+.article-info .article-author{
+    font-size: 16px;
+    color: #9F9F9F;
+}
+.blog{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 26px;
+}
+/* Latest Courses Styles */
+.latest-courses-title{
+    color: #562EFF;
+    font-size: 24px;
+    margin-top: 2px;
+}
+.course-banner img{
+    width: 224px;
+    height: 104px;
+}
+.course-info .filled{
+    color: #FFC014;
+}
+.course-info .empty{
+    color: #AEAEAE;
+}
+.course-info {
+    display: flex;
+    align-items: center;
+
+}
+.course-details .course-title{
+    font-size: 20.0336px;
+    margin-top: 19.23px;
+    margin-bottom: 0px;
+}
+.course-details .course-author{
+    color: #ED6B4F;
+    font-weight: 400;
+    font-size: 14.6913px;
+    margin-top: 7.17px;
+    margin-bottom: 0px;
+}
+.course-rating{
+    margin-right: 10.71px;
+}
+.course-info p{
+    margin-right: 25.38px;
+    color: #A2A2A2;
+}
+.course-info .course-clock{
+    margin-right: 5.42px;
+    color: #FF4A60;
+}
+.duration{
+    background: #FFE4E8;
+    border-radius: 14.6913px;
+    width: 94.83px;
+    height: 29.38px;
+    text-align: center;
+    justify-content: center;
+    color: #FF4A60;
+}
+.courses{
+    display: flex;
+    justify-content: space-between;
 }
